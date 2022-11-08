@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasha Seii</title>
+
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="stylesheet" href=
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+   
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body >
+    <div id="page-container">
+        <div id="content-wrap">
+     
+    <header>
+        <h1>Tasha Seii</h1>
+        <h2>Portfolio</h2>
+        <img src="img/profile.JPG" alt="">
+    </header>  
+    <nav>
+
+
+        <div class="left">
+            <div class="logo">
+                <img src="img/eagle.png"style="width: 75px; height: 65px;" alt="">
+            </div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Me</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">My Portfolio</a></li>
+                <li><a href="">Gallery</a></li>
+               
+            </ul>
+        </div>
+        <div class="right">
+            <div class="input">
+             <input type="text" class="search" name="" id="">
+               
+                
+                <span class="searchText"><a href=""  style="text-decoration:none; color: black;" >Type your search here</a></span>
+
+                <span class="material-symbols-outlined">
+                   search
+                    </span>
+            
+               
+            </div>
+          
+            
+          <button class="sbutton"><a href="">Search</a></button>
+       
+   
+        </div>
+    </nav> 
+    <div id="main">
+        <h2>About me</h2>
+        <div class="about">
+            <div class="text_content">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                <p>
+                Industry's standard dummy  since the 1500s, took.
+                   
+                </p>
+<div class="hobbie"> 
+    
+    <b><i><p style="font-size:20px;margin-top:20px; margin-left: 390px;" >
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.:</p></i></b>
+  
+    <div class="list">    <ul>
+        
+        
+        <li>Lorem Ipsum is simply  margin lorem Ipsum is simply  margin</li>
+        <li>Lorem Ipsum is simply dummy text of lorem Ipsum is simply  margin </li>
+        <li>Lorem Ipsum is simply lorem Ipsum is simply  margin</li>
+        <li>Lorem Ipsum is simply dummy text of the printing and typesetting </li>
+        
+    </ul>
+
+    </div>
+   
+   
+       
+ </div>         
+                
+     
+    </div>
+        
+            
+           
+            <div class="image_content">
+                <img class="image1" src="img/yoga.JPG" alt="">
+         
+         
+           
+
+                 
+
+                    <img class="image2" src="img/photo.jpg" alt="">
+                    <img class="image6" src="img/coding.jpg" alt="">
+           
+          
+                </div>
+            </div>
+    </div>
+    <div id="projects">
+        <h4 >My Projects</h4>
+  
+        <div class="projects_div">
+           
+            <div data-name="Photography">
+               <div><h3><button class="battonp"><a href="">Photography</a></button></h3></div>
+                <img class="image" src="img/shoes.JPG" alt="">
+               
+                <p id="photo">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+            </div>
+            <div data-name="Yoga Studio">
+               <div> <h3><button class="battonp"><a href="">Yoga Studio</a></button></h3></div>
+                <img class="image" src="img/yst.jpg"alt="">
+                <p id="yoga">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+            <div data-name="programming">
+               <div> <h3><button class="battonp"><a href="">Programming</a></button></h3></div>
+                <img class="image" src="img/rest.jpg" alt="">
+                <p id="programming">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+        </div>
+    
+    </div>
+
+    <script>
+
+
+        let divs = document.querySelectorAll('.projects_div div');
+
+
+        divs.forEach(item=>{
+
+            item.onmouseover = function(){
+                // audio.play(); 
+                this.children[1].style.filter = "brightness(.5)"
+                this.children[2].style.display = "block";
+            }
+            item.onmouseout = function(){
+                this.children[1].style.filter = "brightness(1)"
+                this.children[2].style.display = "none";
+            }
+        })
+    </script>
+
+<div><h4>Blogging</h4>
+<div class="wrapper">
+    <div class="block leftt">
+        <div class="top">
+           <h5> <a href="">About My Articles</a></h5>
+           
+        </div>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.</p>
+            <p class="bottom_text">CEO of Bumble</p>
+    </div>
+    <div class="block middle">
+        <div class="top">
+            <h5><a href="">About My Poetry</a></h5>
+      
+        </div>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.</p>
+            <p class="bottom_text">CEO of Bumble</p>
+    </div>
+    <div class="block rightt">
+        <div class="top">
+            <h5> <a href=""> About My Drawings</a></h5>
+        </div>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.</p>
+            <p class="bottom_text">CEO of Bumble</p>
+    </div>
+</div>
+</div>
+
+
+
+</div>
+
+
+    <footer id="contact">
+        <div>
+        <H2 class="fh" >My Contact Details:</H2>
+
+            <div class="contacts">
+            
+             <div>
+                 <dl>
+                     <dt><u> Phone Number: </u></dt>
+                     <dd><a href="">☎  +61 405 391 933</a></dd>
+                     <dt><u>E-Mail:</u></dt>
+                     <dd><a href="">✉TashaSeii@gmail.com</a></dd>
+                     
+                 </dl>
+             </div> 
+             <div>
+                 <form action="" id="contactForm" style="max-height: 80px;">
+                     <input type="text" placeholder="Your Name" name="name" required>
+                     <input type="email" placeholder="Your Email " name="email" required>
+                     <input type="phone" placeholder="Your Phone number" name="phone" required>
+                     <textarea name="message" id="" rows="5" placeholder="Your Message"></textarea>
+                    <button class="button" style="font-size: 26px;"> <a href="">Email Us </button></a>
+                 </form>
+                      <!-- Add font awesome icons -->
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+            <a href="#" class="fa fa-reddit"></a>
+            <a href="#" class="fa fa-facebook"></a>
+         
+           
+               
+       
+
+      <div>
+          
+        <h6>This Page Was Created by Tasha Seii<br> Copyrights &COPY;</h6>
+        <h6>21/10/2022</h6>
+    </div>
+          
+</div>  
+           
+
+</div>
+
+
+</footer>
+</div>
+</div>
+
+   
+    
+      
+       
+       
+            
+
+
+</body>
+</html>
